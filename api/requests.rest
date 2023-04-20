@@ -1,0 +1,20 @@
+GET http://localhost:3001/todos
+
+
+###
+
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "Get the Fish"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/:id
+
+###
+
+PUT http://localhost:3001/todo/complete/:id
