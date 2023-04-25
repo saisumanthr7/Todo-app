@@ -1,40 +1,41 @@
 :root {
-  --primary: #7FFFD4;
-  --secondary: #5e7ff8;
-  --light: #EEE;
-  --light-alt: #4f65f2;
-  --dark: #080c11;
-  --dark-alt: #0a0e0c;
+	--primary: #D81E5B;
+	--secondary: #8A4EFC;
+	--light: #EEE;
+	--light-alt: #61759b;
+	--dark: #131A26;
+	--dark-alt: #202B3E;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family:'Times New Roman', Times, serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: "Fira Sans", sans-serif;
 }
 
 body {
-  background-color: var(--dark-alt);
-  color: var(--light);
+	background-color: var(--dark-alt);
+	color: var(--light);
 }
 
 .App {
-  padding: 64px;
+	padding: 32px;
 }
 
 h1 {
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 32px;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 32px;
 }
 
 h4 {
-  font-size: 18px;
-  color: var(--light-alt);
-  text-transform: uppercase;
-  font-weight: 400;
-  margin-bottom: 16px;
+	font-size: 18px;
+	color: var(--light-alt);
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 16px;
 }
 
 .todo {

@@ -5,11 +5,13 @@ GET http://localhost:3001/todos
 
 
 POST http://localhost:3001/todo/new
-Content-Type: application/json
+# Content-Type: application/json
 
-{
-    "text": "Get the Fish"
-}
+# {
+#     "text": "Order some Pizza"
+# }
+
+
 
 ###
 
@@ -17,4 +19,4 @@ DELETE http://localhost:3001/todo/delete/:id
 
 ###
 
-PUT http://localhost:3001/todo/complete/:id
+GET  http://localhost:3001/todo/complete/:id
